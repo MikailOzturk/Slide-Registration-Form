@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
+	<link rel="stylesheet " href=	"style.css"/>
+	<link rel="stylesheet " href=	"girisStyle.css"/>
+	
+</head>
+	<body>
+	
+<div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Hesap Oluştur</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+               
+                <input type="text" placeholder="İsim" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Parola" />
+                <button>Kayıt Ol</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Giriş Yap</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Parola" />
+                <a href="#">Şifreni mi unuttun?</a>
+                <button>Giriş Yap</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Tekrar Hoşgeldiniz!</h1>
+                    <p>Bizimle bağlantı kurmak için lütfen giriş yapınız</p>
+                    <button class="ghost" id="signIn">Giriş Yap</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Merhaba, Dostum!</h1>
+                    <p>Kişisel bilgilerini kaydederek bizimle olabilirsin</p>
+                    <button class="ghost" id="signUp">Kayıt Ol</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="girisJs.js"></script>
+	</body>
+	</html>
